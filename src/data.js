@@ -2,7 +2,6 @@ import {HiDocumentReport} from 'react-icons/hi'
 import {RiTeamFill} from 'react-icons/ri'
 import {BsFillPersonFill} from 'react-icons/bs'
 import {GrContactInfo} from 'react-icons/gr'
-import {FaHeart} from 'react-icons/fa'
 import React from 'react';
 import profile from './images/profile.png'
 
@@ -14,14 +13,6 @@ export const sublinks = [
       { label: 'Player', icon: <BsFillPersonFill />, url: '/player' }
     ],
   },
-
-  {
-    page: 'Your Page',
-    links: [
-      { label: 'Favorite', icon: <FaHeart/>, url: '/favorite' }
-    ]
-  },
-
   {
     page: 'Information',
     links: [

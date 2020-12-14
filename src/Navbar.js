@@ -36,9 +36,6 @@ const Navbar = () => {
             <button className="link-btn" onMouseOver={displaySubmenu}>Sport Search</button>
           </li>
           <li>
-            <button className="link-btn" onMouseOver={displaySubmenu}>Your Page</button>
-          </li>
-          <li>
             <button className="link-btn" onMouseOver={displaySubmenu}>Information</button>
           </li>
         </ul>

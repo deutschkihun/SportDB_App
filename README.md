@@ -16,10 +16,4 @@ you can reach published link here
 
 - https://sportdbapplication.netlify.app/
 
-Up comming update
-
-- favorite list
-- saving personal data (login/out)
-- gallery
-
 Thank you so much

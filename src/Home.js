@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import {FaAppStore,FaGooglePlay} from 'react-icons/fa'
 import {FiChevronLeft,FiChevronRight} from 'react-icons/fi'
 import sport from './images/sport.png';
 import { useGlobalContext } from './context';
@@ -51,14 +50,7 @@ const Home = () => {
             Many users are satified with our sport database application.
             This application is providing sport team and player data. 
             Just experience how easy to find sport team and player through our service.
-            Meet us via Andriod / IOS soon !!
           </p>
-          <a href="https://www.apple.com/app-store/" target='_blank' rel="noopener noreferrer">
-            <FaAppStore style={{fontSize:'2rem'}}/>
-          </a> 
-          <a href="https://play.google.com/store" target='_blank' rel="noopener noreferrer"> 
-            <FaGooglePlay style={{fontSize:'2rem'}}/>
-          </a>
         </article>
         <article className='hero-images'>
           <img src={sport} className='phone-img' alt='phone'/>

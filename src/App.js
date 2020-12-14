@@ -4,7 +4,6 @@ import Home from './Home'
 import Sidebar from './Sidebar'
 import Submenu from './Submenu'
 import {BrowserRouter as Router, Route,Switch} from "react-router-dom"
-import Favorite from './Favorite'
 import TeamPage from './TeamPage'
 import SearchSingleTeam from './SearchSingleTeam'
 import SearchSinglePlayer from './SearchSinglePlayer'
@@ -24,7 +23,6 @@ function App() {
         <Route exact path='/team/:id' component={SearchSingleTeam} />
         <Route exact path='/player' component={PlayerPage} />
         <Route exact path='/player/:id' component={SearchSinglePlayer} />
-        <Route exact path='/favorite' component={Favorite} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         <Route path='*' component={Error} />
